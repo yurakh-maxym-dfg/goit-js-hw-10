@@ -1,0 +1,81 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 360px;
+    margin-left: 0;
+    margin-right: auto;
+}
+.form input,
+.form button,
+.form fieldset{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.input{
+    border: 1px solid #808080;
+        border-radius: 4px;
+        width: 360px;
+        height: 40px;
+    padding: 8px 16px;
+}
+
+.field legend {
+    margin-left: 0;
+        margin-right: auto;
+        /* штовхає вліво */
+        text-align: left;
+}
+
+.label{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.04em;
+        color: #2e2f42;
+}
+
+.field {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    margin-top: 16px;
+    padding: 16px 24px;
+    border-radius: 4px;
+    padding: 16px 24px;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    height: auto;
+}
+
+.field label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.form button {
+    border-radius: 8px;
+    border-color: transparent;
+        padding: 8px 16px;
+        width: 360px;
+        height: 40px;
+        margin-top: 24px;
+    background-color: #4e75ff;
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.04em;
+        color: #fff;
+}
