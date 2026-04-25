@@ -5,8 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Timer</title>
-    <script type="module" crossorigin src="/goit-js-hw-10/assets/modulepreload-polyfill-B5Qt9EMX.js"></script>
-    <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/styles-DsmK7QuH.css">
+    <script type="module" crossorigin src="/goit-js-hw-10/1-timer.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/modulepreload-polyfill-B5Qt9EMX.js">
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/vendor-BbSUbo7J.js">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/vendor-C1gPI-5C.css">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/styles-CXcSdQad.css">
   </head>
   <body>
     <header class="header">
@@ -32,6 +35,30 @@
         </h1>
         <a class="back-link" href="./index.html">Go back</a>
       </div>
+
+<div class="timer-input-area">
+<input type="text" id="datetime-picker" class="timer-input"/>
+<button type="button" data-start class="timer-btn">Start</button>
+</div>
+<div class="timer">
+  <div class="field">
+    <span class="value" data-days>00</span>
+    <span class="label">DAYS</span>
+  </div>
+  <div class="field">
+    <span class="value" data-hours>00</span>
+    <span class="label">HOURS</span>
+  </div>
+  <div class="field">
+    <span class="value" data-minutes>00</span>
+    <span class="label">MINUTES</span>
+  </div>
+  <div class="field">
+    <span class="value" data-seconds>00</span>
+    <span class="label">SECONDS</span>
+  </div>
+</div>
+
     </main>
 
   </body>
